@@ -1,5 +1,5 @@
 import { FC, memo } from 'react';
-import { useCompanyData } from '@hooks/useCompanyData.ts';
+import { useCompanyData } from '../hooks/useCompanyData.ts';
 
 interface CompanyInfoProps {
   ticker: string;
